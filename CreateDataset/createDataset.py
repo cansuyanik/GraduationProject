@@ -8,8 +8,8 @@ Created on Fri May  8 23:02:16 2020
 '''
 #limitWords
 
-file1 = open('./data/kitap.txt', 'r', encoding="utf8") 
-output = open("./data/newData/kitap2.txt", "a", encoding="utf8")
+file1 = open('../data/kitap.txt', 'r', encoding="utf8") 
+output = open("../data/kitap2.txt", "a", encoding="utf8")
 Lines = file1.readlines() 
 
 for lines in Lines:
