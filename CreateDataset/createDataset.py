@@ -25,13 +25,10 @@ output.close()
 import re
 import random
 
-file1 = open("./data/newData/sentences3.txt", "r", encoding="utf8")
-output = open("./data/newData/incorrectSentences.txt", "w", encoding="utf8")
+file1 = open("../data/sentences.txt", "r", encoding="utf8")
+output = open("../data/incorrectSentences.txt", "w", encoding="utf8")
 
-file2 = open("./data/newData/words.txt", "r", encoding="utf8")
-
-
-#output2 = open("./data/newData/sentences3.txt", "w", encoding="utf8")
+file2 = open("../data/words.txt", "r", encoding="utf8")
 
 
 Lines = file1.readlines() 
