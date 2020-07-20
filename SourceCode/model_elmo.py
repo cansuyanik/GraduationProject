@@ -333,11 +333,11 @@ exampleSentence = "belkide biz düşünüyor muyuz"
 predict(model, words, tags, exampleSentence, word2idx, MAX_LEN, n_words)
 
 
-file_name1 = "./examples_corr.txt"
-file_name2 = "./examples_deda.txt"
-file_name3 = "./examples_ki.txt"
-file_name4 = "./examples_q.txt"
-file_name5 = "./examples_oth.txt"
+file_name1 = "./testData/examples_corr.txt"
+file_name2 = "./testData/examples_deda.txt"
+file_name3 = "./testData/examples_ki.txt"
+file_name4 = "./testData/examples_q.txt"
+file_name5 = "./testData/examples_oth.txt"
 
 outputFile = open("./output.txt", "w", encoding="utf8")
 
